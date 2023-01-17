@@ -31,6 +31,8 @@ public class App {
 
 	public static void main(String[] args) {
 		
+		// declaration des variables
+		
 		double rayon;
 		int angle;
 		double surface;
