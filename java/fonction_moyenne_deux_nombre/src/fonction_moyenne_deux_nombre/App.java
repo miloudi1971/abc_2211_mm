@@ -31,8 +31,8 @@ public class App {
 	
 	 public static double moyenne(double a, double b)
 	 {
-		 double resultat;
-		 return resultat = (a + b)/2;
+		 double resultat  = (a + b)/2;
+		 return resultat;
 	 }
 
 	public static void main(String[] args) {
@@ -42,9 +42,9 @@ public class App {
 		double b;
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("veuillez saisir la valeur de a ");
-		a = Sc.nextInt();
+		a = Sc.nextDouble();
 		System.out.println("veuillez saisir la valeur de b ");
-		b = Sc.nextInt();
+		b = Sc.nextDouble();
 		
 		m = moyenne(a, b);
 		System.out.println("la moyenne  de a et b est : "+ m);
