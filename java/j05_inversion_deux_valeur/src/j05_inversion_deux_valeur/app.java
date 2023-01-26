@@ -43,10 +43,6 @@ public class app {
 		System.out.println("Apres la permutation: a = "+a+" et b = "+b);
 		Sc.close();
 		
-				
-						
-		
-		
 		
 
 	}
